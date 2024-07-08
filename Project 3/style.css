@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#nav-part1{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+#nav-part2{
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav > #nav-part1 > h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+#nav > #nav-part1 > h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+#nav > h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+#content{
+    padding: 40px 60px;
+    margin-top: 60px;
+}
+#content h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+#content p{
+    font-size: 100px;
+    letter-spacing:-6px ;
+    line-height: 98px;
+    margin-top: 30px
+    
+}
+#case{
+    padding: 40px 60px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case > h4{
+
+}
+#case > #right > h5{
+    font-size: 1rem; 
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+    
+}
+#line{
+    height: 2px ;
+    width: 90px;
+    background-color: black;
+
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 60px;
+    gap :30px;
+    
+
+}
+.frame{
+    width: 50%;
+
+}
+
+.frame-img{
+    width:100%;
+    height: 430px;
+    border-radius: 12px;
+    background-size: cover;
+}
+#img1{
+    background-image: url(https://i.pinimg.com/564x/a8/a8/73/a8a8737c9b821c8f9ebc5228dd49909d.jpg);
+}
+#img2{
+    background-image: url(https://i.pinimg.com/564x/0b/e0/81/0be0819bc4692254577ff060c5575176.jpg);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5px 0px 5px;
+}
+#projects > .frame > .bottom > i{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px 18px;
+    border-radius: 40px;
+    font-weight: 600;
+}
+#projects > .frame > .bottom > i:hover{
+    background-color: black;
+    color:white;
+}
+.bottom p{
+    font-size:14px;
+    color:grey;
+}
+.bottom h2{
+    margin-bottom: 4px
+}
